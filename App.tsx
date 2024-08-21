@@ -27,7 +27,7 @@ import {
 
 function SelectExample() {
   return (
-    <Select>
+    <Select className="my-16">
       <SelectTrigger variant="outline" size="md">
         <SelectInput placeholder="Select option" />
         <SelectIcon className="mr-3" as={ChevronDownIcon} />
